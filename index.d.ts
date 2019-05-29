@@ -38,8 +38,9 @@ declare class Sound {
    *
    * @param category AVAudioSession category
    * @param mixWithOthers Can be set to true to force mixing with other audio sessions.
+   * @param duckOthers Can be set to true to lower the volume of other audio sessions when playing sound.
    */
-  static setCategory(category: AVAudioSessionCategory, mixWithOthers?: boolean): void
+  static setCategory(category: AVAudioSessionCategory, mixWithOthers: boolean, duckOthers: boolean): void
 
   /**
    * Sets AVAudioSession mode, which works in conjunction with the category to determine audio mixing behavior.
