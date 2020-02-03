@@ -171,7 +171,7 @@ RCT_EXPORT_METHOD(setCategory
     }
 
     if (category) {
-        AVAudioSessionCategoryOptions *options = 0
+        AVAudioSessionCategoryOptions options = 0;
         if (mixWithOthers) {
             options = options | AVAudioSessionCategoryOptionMixWithOthers
         }
