@@ -173,10 +173,10 @@ RCT_EXPORT_METHOD(setCategory
     if (category) {
         AVAudioSessionCategoryOptions options = 0;
         if (mixWithOthers) {
-            options = options | AVAudioSessionCategoryOptionMixWithOthers
+            options = options | AVAudioSessionCategoryOptionMixWithOthers;
         }
         if (duckOthers) {
-            options = options | AVAudioSessionCategoryOptionDuckOthers
+            options = options | AVAudioSessionCategoryOptionDuckOthers;
         }
         if (options) {
             [session setCategory: category
