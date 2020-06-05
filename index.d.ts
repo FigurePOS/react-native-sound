@@ -186,7 +186,7 @@ declare class Sound {
   /**
    * Get system volume
    */
-  getSystemVolume(callBack: (volume) => void): void
+  getSystemVolume(callBack: (volume: number) => void): void
 }
 
 export = Sound;
