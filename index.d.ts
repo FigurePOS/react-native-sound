@@ -182,6 +182,11 @@ declare class Sound {
    * Whether the player is playing or not.
    */
   isPlaying(): boolean
+
+  /**
+   * Get system volume
+   */
+  getSystemVolume(callBack: (volume) => void): void
 }
 
 export = Sound;
