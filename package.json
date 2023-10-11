@@ -1,10 +1,10 @@
 {
-  "name": "react-native-sound",
-  "version": "0.11.0",
+  "name": "@figurepos/react-native-sound",
+  "version": "0.12.1",
   "description": "React Native module for playing sound clips on iOS, Android, and Windows",
   "main": "sound.js",
   "typings": "index.d.ts",
-  "repository": "zmxv/react-native-sound",
+  "repository": "https://github.com/FigurePOS/react-native-sound.git",
   "keywords": [
     "react-native",
     "sound",
@@ -25,6 +25,10 @@
   "devDependencies": {
     "glob": "^7.1.4",
     "promisify-child-process": "^3.1.1"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "**/*.@(js|ts)",
