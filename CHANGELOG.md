@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.12.2
+
+Fix esm import required for RN 79+
+
+
 ## 0.11.0
 
 New features:
